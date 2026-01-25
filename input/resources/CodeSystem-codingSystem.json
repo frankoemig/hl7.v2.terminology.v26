@@ -1,0 +1,1158 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "codingSystem",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-codingSystem.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/codingSystem</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.6"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0396"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/codingSystem",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.247"
+  } ],
+  "version": "1.3.0",
+  "name": "CodingSystem",
+  "title": "Coding System (2.6 - 1.3.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts specifying the coding system.  This table is maintained outside of the published Version 2 standards, and may be found at http://www.hl7.org/Special/committees/vocab/table_0396/index.cfm.  Used in HL7 Version 2.x messaging in the CWE segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  }, {
+    "code": "category",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#category",
+    "description": "category",
+    "type": "string"
+  }, {
+    "code": "country",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#country",
+    "description": "country",
+    "type": "string"
+  } ],
+  "concept": [ {
+    "code": "99zzz",
+    "display": "Local general code where z is an alphanumeric character",
+    "definition": "Local general code where z is an alphanumeric character",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Locally defined codes for purpose of sender or receiver - 99zzz (where z is an alphanumeric character)."
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-08-09"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "ACR",
+    "display": "American College of Radiology finding codes",
+    "definition": "American College of Radiology finding codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "ALPHAID2006",
+    "display": "German Alpha-ID v2006",
+    "definition": "German Alpha-ID v2006",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    }, {
+      "code": "country",
+      "valueString": "Germany"
+    } ]
+  }, {
+    "code": "ALPHAID2007",
+    "display": "German Alpha-ID v2007",
+    "definition": "German Alpha-ID v2007",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    }, {
+      "code": "country",
+      "valueString": "Germany"
+    } ]
+  }, {
+    "code": "ALPHAID2008",
+    "display": "German Alpha-ID v2008",
+    "definition": "German Alpha-ID v2008",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    }, {
+      "code": "country",
+      "valueString": "Germany"
+    } ]
+  }, {
+    "code": "ANS+",
+    "display": "HL7 set of units of measure",
+    "definition": "HL7 set of units of measure",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "ART",
+    "display": "WHO Adverse Reaction Terms",
+    "definition": "WHO Adverse Reaction Terms",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "AS4",
+    "display": "ASTM E1238/ E1467 Universal",
+    "definition": "ASTM E1238/ E1467 Universal",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "AS4E",
+    "display": "AS4 Neurophysiology Codes",
+    "definition": "AS4 Neurophysiology Codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "ATC",
+    "display": "American Type Culture Collection",
+    "definition": "American Type Culture Collection",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "C4",
+    "display": "CPT-4",
+    "definition": "CPT-4",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "C5",
+    "display": "CPT-5",
+    "definition": "CPT-5",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CAS",
+    "display": "Chemical abstract codes",
+    "definition": "Chemical abstract codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CCC",
+    "display": "Clinical Care Classification system",
+    "definition": "Clinical Care Classification system",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "CD2",
+    "display": "CDT-2 Codes",
+    "definition": "CDT-2 Codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CDCA",
+    "display": "CDC Analyte Codes",
+    "definition": "CDC Analyte Codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    }, {
+      "code": "country",
+      "valueString": "US"
+    } ]
+  }, {
+    "code": "CDCM",
+    "display": "CDC Methods/Instruments Codes",
+    "definition": "CDC Methods/Instruments Codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    }, {
+      "code": "country",
+      "valueString": "US"
+    } ]
+  }, {
+    "code": "CDS",
+    "display": "CDC Surveillance",
+    "definition": "CDC Surveillance",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CE",
+    "display": "CEN ECG diagnostic codes",
+    "definition": "CEN ECG diagnostic codes",
+    "property": [ {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-08-09"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CLP",
+    "display": "CLIP",
+    "definition": "CLIP",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CPTM",
+    "display": "CPT Modifier Code",
+    "definition": "CPT Modifier Code",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CST",
+    "display": "COSTART",
+    "definition": "COSTART",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "CVX",
+    "display": "CDC Vaccine Codes",
+    "definition": "CDC Vaccine Codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "DCL",
+    "display": "DICOM Class Label",
+    "definition": "DICOM Class Label",
+    "property": [ {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-08-09"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "DCM",
+    "display": "DICOM Controlled Terminology",
+    "definition": "DICOM Controlled Terminology",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "DQL",
+    "display": "DICOM Query Label",
+    "definition": "DICOM Query Label",
+    "property": [ {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-08-09"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "E",
+    "display": "EUCLIDES",
+    "definition": "EUCLIDES",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "E5",
+    "display": "Euclides  quantity codes",
+    "definition": "Euclides  quantity codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "E6",
+    "display": "Euclides Lab method codes",
+    "definition": "Euclides Lab method codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "E7",
+    "display": "Euclides Lab equipment codes",
+    "definition": "Euclides Lab equipment codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "ENZC",
+    "display": "Enzyme Codes",
+    "definition": "Enzyme Codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "FDDC",
+    "display": "First DataBank Drug Codes",
+    "definition": "First DataBank Drug Codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "FDDX",
+    "display": "First DataBank Diagnostic Codes",
+    "definition": "First DataBank Diagnostic Codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "FDK",
+    "display": "FDA K10",
+    "definition": "FDA K10",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "GDRG2004",
+    "display": "G-DRG German DRG Codes v2004",
+    "definition": "G-DRG German DRG Codes v2004",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "GDRG2005",
+    "display": "G-DRG German DRG Codes v2005",
+    "definition": "G-DRG German DRG Codes v2005",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "GDRG2006",
+    "display": "G-DRG German DRG Codes v2006",
+    "definition": "G-DRG German DRG Codes v2006",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "GDRG2007",
+    "display": "G-DRG German DRG Codes v2007",
+    "definition": "G-DRG German DRG Codes v2007",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "GDRG2008",
+    "display": "G-DRG German DRG Codes v2008",
+    "definition": "G-DRG German DRG Codes v2008",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "GMDC2004",
+    "display": "German Major Diagnostic Codes v2004",
+    "definition": "German Major Diagnostic Codes v2004",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "GMDC2005",
+    "display": "German Major Diagnostic Codes v2005",
+    "definition": "German Major Diagnostic Codes v2005",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "GMDC2006",
+    "display": "German Major Diagnostic Codes v2006",
+    "definition": "German Major Diagnostic Codes v2006",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "GMDC2007",
+    "display": "German Major Diagnostic Codes v2007",
+    "definition": "German Major Diagnostic Codes v2007",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "GMDC2008",
+    "display": "German Major Diagnostic Codes v2008",
+    "definition": "German Major Diagnostic Codes v2008",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "HB",
+    "display": "HIBCC",
+    "definition": "HIBCC",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "HCPCS",
+    "display": "CMS (formerly HCFA)  Common Procedure Coding System",
+    "definition": "CMS (formerly HCFA)  Common Procedure Coding System",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "HCPT",
+    "display": "Health Care Provider Taxonomy",
+    "definition": "Health Care Provider Taxonomy",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "HHC",
+    "display": "Home Health Care",
+    "definition": "Home Health Care",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "HI",
+    "display": "Health Outcomes",
+    "definition": "Health Outcomes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "HL7nnnn",
+    "display": "HL7 Defined Codes where nnnn is the HL7 table number",
+    "definition": "HL7 Defined Codes where nnnn is the HL7 table number",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "HOT",
+    "display": "Japanese Nationwide Medicine Code",
+    "definition": "Japanese Nationwide Medicine Code",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "HPC",
+    "display": "CMS (formerly HCFA )Procedure Codes (HCPCS)",
+    "definition": "CMS (formerly HCFA )Procedure Codes (HCPCS)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "I10",
+    "display": "ICD-10",
+    "definition": "ICD-10",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "I10G2004",
+    "display": "ICD 10 Germany v2004",
+    "definition": "ICD 10 Germany v2004",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "I10G2005",
+    "display": "ICD 10 Germany v2005",
+    "definition": "ICD 10 Germany v2005",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "I10G2006",
+    "display": "ICD 10 Germany v2006",
+    "definition": "ICD 10 Germany v2006",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "I10P",
+    "display": "ICD-10  Procedure Codes",
+    "definition": "ICD-10  Procedure Codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "I9",
+    "display": "ICD9",
+    "definition": "ICD9",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "I9C",
+    "display": "ICD-9CM",
+    "definition": "ICD-9CM",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "I9CDX",
+    "display": "ICD-9CM Diagnosis codes",
+    "definition": "ICD-9CM Diagnosis codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "I9CP",
+    "display": "ICD-9CM Procedure codes",
+    "definition": "ICD-9CM Procedure codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "IBT",
+    "display": "ISBT",
+    "definition": "ISBT",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "IBTnnnn",
+    "display": "ISBT 128 codes where nnnn  specifies a specific table within ISBT 128.",
+    "definition": "ISBT 128 codes where nnnn  specifies a specific table within ISBT 128.",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "IC2",
+    "display": "ICHPPC-2",
+    "definition": "ICHPPC-2",
+    "property": [ {
+      "code": "usage",
+      "valueString": "International Classification of Health Problems in Primary Care, Classification Committee of World Organization of National Colleges, Academies and Academic Associations of General Practitioners (WONCA), 3rd edition. An adaptation of ICD9 intended for use"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-08-09"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "ICD10AM",
+    "display": "ICD-10 Australian modification",
+    "definition": "ICD-10 Australian modification",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "ICD10CA",
+    "display": "ICD-10 Canada",
+    "definition": "ICD-10 Canada",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "ICD10GM2007",
+    "display": "ICD 10 Germany v2007",
+    "definition": "ICD 10 Germany v2007",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    }, {
+      "code": "country",
+      "valueString": "Germany"
+    } ]
+  }, {
+    "code": "ICD10GM2008",
+    "display": "ICD 10 Germany v2008",
+    "definition": "ICD 10 Germany v2008",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    }, {
+      "code": "country",
+      "valueString": "Germany"
+    } ]
+  }, {
+    "code": "ICDO",
+    "display": "International Classification of Diseases for Oncology",
+    "definition": "International Classification of Diseases for Oncology",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "ICS",
+    "display": "ICCS",
+    "definition": "ICCS",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "ICSD",
+    "display": "International Classification of Sleep Disorders",
+    "definition": "International Classification of Sleep Disorders",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "ISO",
+    "display": "ISO 2955.83 (units of measure) with HL7 extensions",
+    "definition": "ISO 2955.83 (units of measure) with HL7 extensions",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2024-08-10"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "ISOnnnn",
+    "display": "ISO Defined Codes where nnnn is the ISO table number",
+    "definition": "ISO Defined Codes where nnnn is the ISO table number",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "ITIS",
+    "display": "Integrated Taxonomic Information System",
+    "definition": "Integrated Taxonomic Information System",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "IUPC",
+    "display": "IUPAC/IFCC Component Codes",
+    "definition": "IUPAC/IFCC Component Codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "IUPP",
+    "display": "IUPAC/IFCC Property Codes",
+    "definition": "IUPAC/IFCC Property Codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "JC10",
+    "display": "JLAC/JSLM, nationwide laboratory code",
+    "definition": "JLAC/JSLM, nationwide laboratory code",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "JC8",
+    "display": "Japanese Chemistry",
+    "definition": "Japanese Chemistry",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "JJ1017",
+    "display": "Japanese Image Examination Cache",
+    "definition": "Japanese Image Examination Cache",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "L",
+    "display": "Local general code",
+    "definition": "Local general code",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Locally defined codes for purpose of sender or receiver. Local codes can be identified by L (for backward compatibility)"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-08-09"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "LB",
+    "display": "Local billing code",
+    "definition": "Local billing code",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "LN",
+    "display": "Logical Observation Identifier Names and Codes (LOINCÂ®)",
+    "definition": "Logical Observation Identifier Names and Codes (LOINCÂ®)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "MCD",
+    "display": "Medicaid",
+    "definition": "Medicaid",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "MCR",
+    "display": "Medicare",
+    "definition": "Medicare",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "MDC",
+    "display": "Medical Device Communication",
+    "definition": "Medical Device Communication",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "MDDX",
+    "display": "Medispan Diagnostic Codes",
+    "definition": "Medispan Diagnostic Codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "MEDC",
+    "display": "Medical Economics Drug Codes",
+    "definition": "Medical Economics Drug Codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "MEDR",
+    "display": "Medical Dictionary for Drug Regulatory Affairs (MEDDRA)",
+    "definition": "Medical Dictionary for Drug Regulatory Affairs (MEDDRA)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "MEDX",
+    "display": "Medical Economics Diagnostic Codes",
+    "definition": "Medical Economics Diagnostic Codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "MGPI",
+    "display": "Medispan GPI",
+    "definition": "Medispan GPI",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "MVX",
+    "display": "CDC Vaccine Manufacturer Codes",
+    "definition": "CDC Vaccine Manufacturer Codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "NCPDPnnnnsss",
+    "display": "NCPDP code list for data element nnnn [as used in segment sss]",
+    "definition": "NCPDP code list for data element nnnn [as used in segment sss]",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "NDA",
+    "display": "NANDA",
+    "definition": "NANDA",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "NDC",
+    "display": "National drug codes",
+    "definition": "National drug codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "NIC",
+    "display": "Nursing Interventions Classification",
+    "definition": "Nursing Interventions Classification",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "NPI",
+    "display": "National Provider Identifier",
+    "definition": "National Provider Identifier",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "NUBC",
+    "display": "National Uniform Billing Committee Code",
+    "definition": "National Uniform Billing Committee Code",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "O301",
+    "display": "German Procedure Codes",
+    "definition": "German Procedure Codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "O3012004",
+    "display": "OPS Germany v2004",
+    "definition": "OPS Germany v2004",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "O3012005",
+    "display": "OPS Germany v2005",
+    "definition": "OPS Germany v2005",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "O3012006",
+    "display": "OPS Germany v2006",
+    "definition": "OPS Germany v2006",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "OHA",
+    "display": "Omaha System",
+    "definition": "Omaha System",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "OPS2007",
+    "display": "OPS Germany v2007",
+    "definition": "OPS Germany v2007",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    }, {
+      "code": "country",
+      "valueString": "Germany"
+    } ]
+  }, {
+    "code": "OPS2008",
+    "display": "OPS Germany v2008",
+    "definition": "OPS Germany v2008",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    }, {
+      "code": "country",
+      "valueString": "Germany"
+    } ]
+  }, {
+    "code": "POS",
+    "display": "POS Codes",
+    "definition": "POS Codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "RC",
+    "display": "Read Classification",
+    "definition": "Read Classification",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "SCT",
+    "display": "SNOMED Clinical Terms",
+    "definition": "SNOMED Clinical Terms",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "SCT2",
+    "display": "SNOMED Clinical Terms alphanumeric codes",
+    "definition": "SNOMED Clinical Terms alphanumeric codes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "SDM",
+    "display": "SNOMED- DICOM Microglossary",
+    "definition": "SNOMED- DICOM Microglossary",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "SNM",
+    "display": "Systemized Nomenclature of Medicine (SNOMED)",
+    "definition": "Systemized Nomenclature of Medicine (SNOMED)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "SNM3",
+    "display": "SNOMED International",
+    "definition": "SNOMED International",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "SNT",
+    "display": "SNOMED topology codes (anatomic sites)",
+    "definition": "SNOMED topology codes (anatomic sites)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "UB04FL14",
+    "display": "Priority (Type) of Visit",
+    "definition": "Priority (Type) of Visit",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "UB04FL15",
+    "display": "Point of Origin",
+    "definition": "Point of Origin",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "UB04FL17",
+    "display": "Patient Discharge Status",
+    "definition": "Patient Discharge Status",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "UC",
+    "display": "UCDS",
+    "definition": "UCDS",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "UCUM",
+    "display": "UCUM code set for units of measure(from Regenstrief)",
+    "definition": "UCUM code set for units of measure(from Regenstrief)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "UMD",
+    "display": "MDNS",
+    "definition": "MDNS",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "UML",
+    "display": "Unified Medical Language",
+    "definition": "Unified Medical Language",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "UPC",
+    "display": "Universal Product Code",
+    "definition": "Universal Product Code",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "UPIN",
+    "display": "UPIN",
+    "definition": "UPIN",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "USPS",
+    "display": "United States Postal Service",
+    "definition": "United States Postal Service",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "W1",
+    "display": "WHO record # drug codes (6 digit)",
+    "definition": "WHO record # drug codes (6 digit)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "W2",
+    "display": "WHO record # drug codes (8 digit)",
+    "definition": "WHO record # drug codes (8 digit)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "W4",
+    "display": "WHO record # code with ASTM extension",
+    "definition": "WHO record # code with ASTM extension",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "WC",
+    "display": "WHO ATC",
+    "definition": "WHO ATC",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "X12DEnnnn",
+    "display": "ASC X12 Code List nnnn",
+    "definition": "ASC X12 Code List nnnn",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  } ]
+}

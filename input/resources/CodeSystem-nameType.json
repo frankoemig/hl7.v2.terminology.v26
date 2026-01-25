@@ -1,0 +1,255 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "nameType",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-nameType.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/nameType</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.6"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0200"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/nameType",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.104"
+  } ],
+  "version": "1.3.0",
+  "name": "NameType",
+  "title": "Name Type (2.6 - 1.3.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts for types of names for persons.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "A",
+    "display": "Alias Name",
+    "definition": "Alias Name",
+    "designation": [ {
+      "language": "de",
+      "value": "Aliasname"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "B",
+    "display": "Name at Birth",
+    "definition": "Name at Birth",
+    "designation": [ {
+      "language": "de",
+      "value": "Geburtsname"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "C",
+    "display": "Adopted Name",
+    "definition": "Adopted Name",
+    "designation": [ {
+      "language": "de",
+      "value": "angenommener Name"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "D",
+    "display": "Display Name",
+    "definition": "Display Name",
+    "designation": [ {
+      "language": "de",
+      "value": "angezeigter Name"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "I",
+    "display": "Licensing Name",
+    "definition": "Licensing Name",
+    "designation": [ {
+      "language": "de",
+      "value": "nicht verwendet"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "K",
+    "display": "Artist Name",
+    "definition": "Artist Name",
+    "designation": [ {
+      "language": "de",
+      "value": "Künstler- oder Ordensname"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "L",
+    "display": "Legal Name",
+    "definition": "Legal Name",
+    "designation": [ {
+      "language": "de",
+      "value": "gesetzlicher Name"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "M",
+    "display": "Maiden Name",
+    "definition": "Maiden Name",
+    "designation": [ {
+      "language": "de",
+      "value": "Name als ledige Person (Ledigenname)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "N",
+    "display": "Nickname /\"Call me\" Name/Street Name",
+    "definition": "Nickname /\"Call me\" Name/Street Name",
+    "designation": [ {
+      "language": "de",
+      "value": "Spitzname"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "O",
+    "display": "Other",
+    "definition": "Other",
+    "designation": [ {
+      "language": "de",
+      "value": "sonstiger Name"
+    } ],
+    "property": [ {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2025-08-02"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "P",
+    "display": "Name of Partner/Spouse",
+    "definition": "Name of Partner/Spouse",
+    "designation": [ {
+      "language": "de",
+      "value": "nicht verwendet"
+    } ],
+    "property": [ {
+      "code": "comment",
+      "valueString": "retained for backward compatibility only"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "R",
+    "display": "Registered Name (animals only)",
+    "definition": "Registered Name (animals only)",
+    "designation": [ {
+      "language": "de",
+      "value": "Zuchtname bei Tieren"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "S",
+    "display": "Coded Pseudo-Name to ensure anonymity",
+    "definition": "Coded Pseudo-Name to ensure anonymity",
+    "designation": [ {
+      "language": "de",
+      "value": "Pseudonym (z.B. für Studien)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "T",
+    "display": "Indigenous/Tribal/Community Name",
+    "definition": "Indigenous/Tribal/Community Name",
+    "designation": [ {
+      "language": "de",
+      "value": "Stammesname"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "U",
+    "display": "Unspecified",
+    "definition": "Unspecified",
+    "designation": [ {
+      "language": "de",
+      "value": "sonstiger Name"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  } ]
+}
