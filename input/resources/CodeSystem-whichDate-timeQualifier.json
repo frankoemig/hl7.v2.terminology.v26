@@ -1,0 +1,151 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "whichDate-timeQualifier",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-whichDate-timeQualifier.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/whichDate-timeQualifier</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.6"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0156"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/whichDate-timeQualifier",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.74"
+  } ],
+  "version": "1.1.0",
+  "name": "WhichDate-timeQualifier",
+  "title": "Which Date/Time Qualifier (2.6 - 1.1.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts that specify a type of date referred to in query specifications.   Used in HL7 Version 2 messaging in the QRF segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "ANY",
+    "display": "Any date/time within a range",
+    "definition": "Any date/time within a range",
+    "designation": [ {
+      "language": "de",
+      "value": "Alle Ereignisse"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "CAN",
+    "display": "Cancellation date/time",
+    "definition": "Cancellation date/time",
+    "property": [ {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-12-30"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "COL",
+    "display": "Collection date/time, equivalent to film or sample collection date/time",
+    "definition": "Collection date/time, equivalent to film or sample collection date/time",
+    "designation": [ {
+      "language": "de",
+      "value": "Probenentnahme / Untersuchung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "ORD",
+    "display": "Order date/time",
+    "definition": "Order date/time",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftragseingabe"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RCT",
+    "display": "Specimen receipt date/time, receipt of specimen in filling ancillary (Lab)",
+    "definition": "Specimen receipt date/time, receipt of specimen in filling ancillary (Lab)",
+    "designation": [ {
+      "language": "de",
+      "value": "Probeneingang"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "REP",
+    "display": "Report date/time, report date/time at filling ancillary (i.e., Lab)",
+    "definition": "Report date/time, report date/time at filing ancillary (i.e., Lab)",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2015-08-21"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "SCHED",
+    "display": "Schedule date/time",
+    "definition": "Schedule date/time",
+    "designation": [ {
+      "language": "de",
+      "value": "Terminvergabe"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  } ]
+}

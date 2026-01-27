@@ -1,0 +1,250 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "universalIdType",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-universalIdType.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/universalIdType</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.6"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0301"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/universalIdType",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.186"
+  } ],
+  "version": "1.1.0",
+  "name": "UniversalIdType",
+  "title": "Universal ID Type (2.6 - 1.1.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of types of UID (Universal Identifiers).   Used in HL7 Version 2.x messaging HD and EI datatypes.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "DNS",
+    "display": "Domain Name System",
+    "definition": "An Internet dotted name. Either in ASCII or as integers",
+    "designation": [ {
+      "language": "de",
+      "value": "Internet-Adresse"
+    } ],
+    "property": [ {
+      "code": "comment",
+      "valueString": "An Internet host name, in accordance with RFC 1035; or an IP address. Either in ASCII or as integers, with periods between components (“dotted” notation)."
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "GUID",
+    "display": "globally unique identifier",
+    "definition": "Same as UUID.",
+    "designation": [ {
+      "language": "de",
+      "value": "GUID"
+    } ],
+    "property": [ {
+      "code": "comment",
+      "valueString": "Same as UUID.Retained for backward compatibility only as of v2.7; use UUID instead"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "HCD",
+    "display": "CEN Healthcare Coding Identifier",
+    "definition": "The CEN Healthcare Coding Scheme Designator. (Identifiers used in DICOM follow this assignment scheme.)",
+    "property": [ {
+      "code": "comment",
+      "valueString": "The CEN Healthcare Coding Scheme Designator. Retained for backward compatibility only as of v2.7; does not identify Assigning Authorities"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "HL7",
+    "display": "HL7 registration schemes",
+    "definition": "Reserved for future HL7 registration schemes",
+    "designation": [ {
+      "language": "de",
+      "value": "für HL7 reserviert"
+    } ],
+    "property": [ {
+      "code": "comment",
+      "valueString": "Retained for backward compatibility only as of v2.7; HL7 assigns ISO OIDs for Assigning Authorities"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "ISO",
+    "display": "ISO Object Identifier",
+    "definition": "An International Standards Organization Object Identifier",
+    "designation": [ {
+      "language": "de",
+      "value": "ISO-ID"
+    } ],
+    "property": [ {
+      "code": "comment",
+      "valueString": "An International Standards Organization Object Identifier (OID), in accordance with ISO/IEC 8824.  Formatted as decimal digits separated by periods; recommended limit of 64 characters"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "L",
+    "display": "Local",
+    "definition": "These are reserved for locally defined coding schemes.",
+    "designation": [ {
+      "language": "de",
+      "value": "reserviert für lokale Tabellen"
+    } ],
+    "property": [ {
+      "code": "comment",
+      "valueString": "Locally defined coding entity identifier.Retained for backward compatibility only as of v 2.8"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "M",
+    "display": "Local",
+    "definition": "These are reserved for locally defined coding schemes.",
+    "designation": [ {
+      "language": "de",
+      "value": "reserviert für lokale Tabellen"
+    } ],
+    "property": [ {
+      "code": "comment",
+      "valueString": "Locally defined coding entity identifier.Retained for backward compatibility only as of v 2.8"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "N",
+    "display": "Local",
+    "definition": "These are reserved for locally defined coding schemes.",
+    "designation": [ {
+      "language": "de",
+      "value": "reserviert für lokale Tabellen"
+    } ],
+    "property": [ {
+      "code": "comment",
+      "valueString": "Locally defined coding entity identifier.Retained for backward compatibility only as of v 2.8"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "Random",
+    "display": "Random",
+    "definition": "Usually a base64 encoded string of random bits.<p>The uniqueness depends on the length of the bits. Mail systems often generate ASCII string \"unique names,\" from a combination of random bits and system names. Obviously, such identifiers will not be constr",
+    "property": [ {
+      "code": "comment",
+      "valueString": "Usually a base64 encoded string of random bits.Retained for backward compatibility only as of v2.7; equivalent to a locally defined entity identifier scheme; use L. M, or N instead. Note: Random IDs are typically used for instance identifiers, rather than an identifier of an Assigning Authority that issues instance identifiers"
+    }, {
+      "code": "usage",
+      "valueString": "The uniqueness depends on the length of the bits. Mail systems often\r\ngenerate ASCII string \"unique names,\" from a combination of random bits\r\nand system names. Obviously, such identifiers will not be constrained to the\r\nbase64 character set."
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "URI",
+    "display": "Uniform Resource Identifier",
+    "definition": "Uniform Resource Identifier",
+    "designation": [ {
+      "language": "de",
+      "value": "URI"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "UUID",
+    "display": "Universal Unique Identifier",
+    "definition": "The DCE Universal Unique Identifier",
+    "designation": [ {
+      "language": "de",
+      "value": "UUID"
+    } ],
+    "property": [ {
+      "code": "comment",
+      "valueString": "The DCE Universal Unique Identifier, in accordance with RFC 4122. Recommended format is 32 hexadecimal digits separated by hyphens, in the digit grouping 8-4-4-4-12"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "x400",
+    "display": "X.400 MHS identifier",
+    "definition": "An X.400 MHS format identifier",
+    "designation": [ {
+      "language": "de",
+      "value": "X.400"
+    } ],
+    "property": [ {
+      "code": "comment",
+      "valueString": "Recommended format is in accordance with RFC 1649"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "x500",
+    "display": "X500 directory Name",
+    "definition": "An X.500 directory name",
+    "designation": [ {
+      "language": "de",
+      "value": "X.500 Verzeichnis­name"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  } ]
+}

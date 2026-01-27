@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hl7VSdeferredResponseType",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.21.48"
+  } ],
+  "version": "1.0.0",
+  "name": "Hl7VSdeferredResponseType",
+  "title": "Deferred Response Type (2.6 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Value Set of codes which specify which type of deferred query resonse is desired, as specified with the query parameters.",
+  "copyright": "HL7 Inc., 2026",
+  "compose": {
+    "include": [ {
+      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/deferredResponseType",
+      "version": "0"
+    } ]
+  }
+}

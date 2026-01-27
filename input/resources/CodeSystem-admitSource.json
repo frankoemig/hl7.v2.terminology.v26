@@ -1,0 +1,174 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "admitSource",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-admitSource.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/admitSource</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.6"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0023"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/admitSource",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.14"
+  } ],
+  "version": "1.0.0",
+  "name": "AdmitSource",
+  "title": "Admit Source (2.6 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7 published code system of values that indicate where a patient was admitted.  In the US, this field is used on UB92 FL20 “Source of Admission”; note that the UB codes listed are not an exhaustive or current list; refer to a UB specification for additional information. This needs  review by HTA and PA/FM; this may be a value set built on external CMS codes from the UB.  It has not been published after the HL7 Version 2.6 release of the Standard.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "1",
+    "display": "Physician referral",
+    "definition": "Physician referral",
+    "designation": [ {
+      "language": "de",
+      "value": "Überweisung durch Arzt"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "2",
+    "display": "Clinic referral",
+    "definition": "Clinic referral",
+    "designation": [ {
+      "language": "de",
+      "value": "Überweisung durch Klinik"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "3",
+    "display": "HMO referral",
+    "definition": "HMO referral",
+    "designation": [ {
+      "language": "de",
+      "value": "nicht verwendet"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "4",
+    "display": "Transfer from a hospital",
+    "definition": "Transfer from a hospital",
+    "designation": [ {
+      "language": "de",
+      "value": "Verlegung aus Krankenhaus"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "5",
+    "display": "Transfer from a skilled nursing facility",
+    "definition": "Transfer from a skilled nursing facility",
+    "designation": [ {
+      "language": "de",
+      "value": "Verlegung aus Pflegeeinrichtung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "6",
+    "display": "Transfer from another health care facility",
+    "definition": "Transfer from another health care facility",
+    "designation": [ {
+      "language": "de",
+      "value": "Verlegung aus sonstiger Gesundheitseinrichtung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "7",
+    "display": "Emergency room",
+    "definition": "Emergency room",
+    "designation": [ {
+      "language": "de",
+      "value": "Notfallambulanz"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "8",
+    "display": "Court/law enforcement",
+    "definition": "Court/law enforcement",
+    "designation": [ {
+      "language": "de",
+      "value": "Zwangseinweisung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "9",
+    "display": "Information not available",
+    "definition": "Information not available",
+    "designation": [ {
+      "language": "de",
+      "value": "keine Information verfügbar"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  } ]
+}

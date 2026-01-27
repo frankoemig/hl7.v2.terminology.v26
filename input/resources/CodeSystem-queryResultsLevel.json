@@ -1,0 +1,114 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "queryResultsLevel",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-queryResultsLevel.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/queryResultsLevel</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.6"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0108"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/queryResultsLevel",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.45"
+  } ],
+  "version": "1.0.2",
+  "name": "QueryResultsLevel",
+  "title": "Query Results Level (2.6 - 1.0.2)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts which are used to control level of detail in query results.   Used in HL7 Version 2 messaging in the URD segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "O",
+    "display": "Order plus order status",
+    "definition": "Order plus order status",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag und Auftragsstatus"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "R",
+    "display": "Results without bulk text",
+    "definition": "Results without bulk text",
+    "designation": [ {
+      "language": "de",
+      "value": "Ergebnisse / Befunde ohne umfänglichen Text"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "S",
+    "display": "Status only",
+    "definition": "Status only",
+    "designation": [ {
+      "language": "de",
+      "value": "nur Statusinformation"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "T",
+    "display": "Full results",
+    "definition": "Full results",
+    "designation": [ {
+      "language": "de",
+      "value": "Komplette Ergebnisse / Befunde"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  } ]
+}

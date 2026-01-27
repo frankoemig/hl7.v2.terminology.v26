@@ -1,0 +1,474 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "whatSubjectFilter",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-whatSubjectFilter.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/whatSubjectFilter</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.6"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0048"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/whatSubjectFilter",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.20"
+  } ],
+  "version": "1.5.0",
+  "name": "WhatSubjectFilter",
+  "title": "What subject filter (2.6 - 1.5.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts which specify the kind of information that is required to satisfy a query request.  The values define the type of transaction inquiry.  Used in HL7 Version 2 messaging in the URD segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "ADV",
+    "display": "Advice/diagnosis",
+    "definition": "Advice/diagnosis",
+    "designation": [ {
+      "language": "de",
+      "value": "Ratschlag / Diagnose"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "ANU",
+    "display": "Nursing unit lookup (returns patients in beds, excluding empty beds)",
+    "definition": "Nursing unit lookup (returns patients in beds, excluding empty beds)",
+    "designation": [ {
+      "language": "de",
+      "value": "Stationsinformation (ohne freie Betten)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "APA",
+    "display": "Account number query, return matching visit",
+    "definition": "Account number query, return matching visit",
+    "designation": [ {
+      "language": "de",
+      "value": "Fälle zu angefragter Rechnungsnummer"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "APM",
+    "display": "Medical record number query, returns visits for a medical record number",
+    "definition": "Medical record number query, returns visits for a medical record number",
+    "designation": [ {
+      "language": "de",
+      "value": "Fälle zu angefragter Krankenaktennummer"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "APN",
+    "display": "Patient name lookup",
+    "definition": "Patient name lookup",
+    "designation": [ {
+      "language": "de",
+      "value": "Patientendaten zu gegebenem Patientennamen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "APP",
+    "display": "Physician lookup",
+    "definition": "Physician lookup",
+    "designation": [ {
+      "language": "de",
+      "value": "Patienten des spezifizierten Arztes"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "ARN",
+    "display": "Nursing unit lookup (returns patients in beds, including empty beds)",
+    "definition": "Nursing unit lookup (returns patients in beds, including empty beds)",
+    "designation": [ {
+      "language": "de",
+      "value": "Stationsinformation (einschließlich freier Betten)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "CAN",
+    "display": "Cancel.  Used to cancel a query",
+    "definition": "Cancel.  Used to cancel a query",
+    "designation": [ {
+      "language": "de",
+      "value": "Anfrage stornieren"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "DEM",
+    "display": "Demographics",
+    "definition": "Demographics",
+    "designation": [ {
+      "language": "de",
+      "value": "Demographische Daten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "FIN",
+    "display": "Financial",
+    "definition": "Financial",
+    "designation": [ {
+      "language": "de",
+      "value": "Finanzdaten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "GID",
+    "display": "Generate new identifier",
+    "definition": "Generate new identifier",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "GOL",
+    "display": "Goals",
+    "definition": "Goals",
+    "designation": [ {
+      "language": "de",
+      "value": "Ziele"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "MRI",
+    "display": "Most recent inpatient",
+    "definition": "Most recent inpatient",
+    "designation": [ {
+      "language": "de",
+      "value": "Letzter stationärer Patient"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "MRO",
+    "display": "Most recent outpatient",
+    "definition": "Most recent outpatient",
+    "designation": [ {
+      "language": "de",
+      "value": "Letzter ambulanter Patient"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "NCK",
+    "display": "Network clock",
+    "definition": "Network clock",
+    "designation": [ {
+      "language": "de",
+      "value": "Netzwerk-Uhrzeit"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "NSC",
+    "display": "Network status change",
+    "definition": "Network status change",
+    "designation": [ {
+      "language": "de",
+      "value": "Änderung des Netzwerkstatus"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "NST",
+    "display": "Network statistic",
+    "definition": "Network statistic",
+    "designation": [ {
+      "language": "de",
+      "value": "Netzwerkstatistik"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "ORD",
+    "display": "Order",
+    "definition": "Order",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag / Verordnung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "OTH",
+    "display": "Other",
+    "definition": "Other",
+    "designation": [ {
+      "language": "de",
+      "value": "anderes"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "PRB",
+    "display": "Problems",
+    "definition": "Problems",
+    "designation": [ {
+      "language": "de",
+      "value": "Probleme"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "PRO",
+    "display": "Procedure",
+    "definition": "Procedure",
+    "designation": [ {
+      "language": "de",
+      "value": "Prozedur"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "RAR",
+    "display": "Pharmacy administration information",
+    "definition": "Pharmacy administration information",
+    "designation": [ {
+      "language": "de",
+      "value": "Erfolgte Verabreichung von Medikamenten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RDR",
+    "display": "Pharmacy dispense information",
+    "definition": "Pharmacy dispense information",
+    "designation": [ {
+      "language": "de",
+      "value": "Abgabe von Medikamenten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RER",
+    "display": "Pharmacy encoded order information",
+    "definition": "Pharmacy encoded order information",
+    "designation": [ {
+      "language": "de",
+      "value": "Medikamentenverordnung (Apotheke)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RES",
+    "display": "Result",
+    "definition": "Result",
+    "designation": [ {
+      "language": "de",
+      "value": "Ergebnis / Befund"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "RGR",
+    "display": "Pharmacy give information",
+    "definition": "Pharmacy give information",
+    "designation": [ {
+      "language": "de",
+      "value": "Verabreichunsgsvorschrift für Medikamente"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "ROR",
+    "display": "Pharmacy prescription information",
+    "definition": "Pharmacy prescription information",
+    "designation": [ {
+      "language": "de",
+      "value": "Medikamentenverordnung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "SAL",
+    "display": "All schedule related information, including open slots, booked slots, blocked slots",
+    "definition": "All schedule related information, including open slots, booked slots, blocked slots",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "SBK",
+    "display": "Booked slots on the identified schedule",
+    "definition": "Booked slots on the identified schedule",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "SBL",
+    "display": "Blocked slots on the identified schedule",
+    "definition": "Blocked slots on the identified schedule",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "SOF",
+    "display": "First open slot on the identified schedule after the start date/time",
+    "definition": "First open slot on the identified schedule after the start date/time",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "SOP",
+    "display": "Open slots on the identified schedule between the begin and end of the start date/time range",
+    "definition": "Open slots on the identified schedule between the begin and end of the start date/time range",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "SSA",
+    "display": "Time slots available for a single appointment",
+    "definition": "Time slots available for a single appointment",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "SSR",
+    "display": "Time slots available for a recurring appointment",
+    "definition": "Time slots available for a recurring appointment",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "STA",
+    "display": "Status",
+    "definition": "Status",
+    "designation": [ {
+      "language": "de",
+      "value": "Status"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "VXI",
+    "display": "Vaccine Information",
+    "definition": "Vaccine Information",
+    "designation": [ {
+      "language": "de",
+      "value": "Impfinformation"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "XID",
+    "display": "Get cross-referenced identifiers",
+    "definition": "Get cross-referenced identifiers",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  } ]
+}

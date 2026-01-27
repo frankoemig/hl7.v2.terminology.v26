@@ -1,0 +1,476 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "dischargeDisposition",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-dischargeDisposition.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/dischargeDisposition</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.6"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0112"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/dischargeDisposition",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.438"
+  } ],
+  "version": "1.0.0",
+  "name": "DischargeDisposition",
+  "title": "Discharge Disposition (2.6 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Code system of concepts which specify the disposition of the patient at time of discharge (i.e., discharged to home, expired, etc.).  Used in HL7 Version 2.x messaging in the PV1 segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "01",
+    "display": "Discharged to home or self care (routine discharge)",
+    "definition": "Discharged to home or self care (routine discharge)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "02",
+    "display": "Discharged/transferred to another short term general hospital for inpatient care",
+    "definition": "Discharged/transferred to another short term general hospital for inpatient care",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "03",
+    "display": "Discharged/transferred to skilled nursing facility (SNF)",
+    "definition": "Discharged/transferred to skilled nursing facility (SNF)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "04",
+    "display": "Discharged/transferred to an intermediate care facility (ICF)",
+    "definition": "Discharged/transferred to an intermediate care facility (ICF)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "05",
+    "display": "Discharged/transferred to another type of institution for inpatient care or referred for outpatient services to another institution",
+    "definition": "Discharged/transferred to another type of institution for inpatient care or referred for outpatient services to another institution",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "06",
+    "display": "Discharged/transferred to home under care of organized home health service organization",
+    "definition": "Discharged/transferred to home under care of organized home health service organization",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "07",
+    "display": "Left against medical advice or discontinued care",
+    "definition": "Left against medical advice or discontinued care",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "08",
+    "display": "Discharged/transferred to home under care of Home IV provider",
+    "definition": "Discharged/transferred to home under care of Home IV provider",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "09",
+    "display": "Admitted as an inpatient to this hospital",
+    "definition": "Admitted as an inpatient to this hospital",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "10",
+    "display": "Discharge to be defined at state level, if necessary 10",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "11",
+    "display": "Discharge to be defined at state level, if necessary 11",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "12",
+    "display": "Discharge to be defined at state level, if necessary 12",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "13",
+    "display": "Discharge to be defined at state level, if necessary 13",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "14",
+    "display": "Discharge to be defined at state level, if necessary 14",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "15",
+    "display": "Discharge to be defined at state level, if necessary 15",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "16",
+    "display": "Discharge to be defined at state level, if necessary 16",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "17",
+    "display": "Discharge to be defined at state level, if necessary 17",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "18",
+    "display": "Discharge to be defined at state level, if necessary 18",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "19",
+    "display": "Discharge to be defined at state level, if necessary 19",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "20",
+    "display": "Expired (i.e. dead)",
+    "definition": "Expired (i.e. dead)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "21",
+    "display": "Expired to be defined at state level, if necessary 21",
+    "definition": "Expired to be defined at state level, if necessary",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "22",
+    "display": "Expired to be defined at state level, if necessary 22",
+    "definition": "Expired to be defined at state level, if necessary",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "23",
+    "display": "Expired to be defined at state level, if necessary 23",
+    "definition": "Expired to be defined at state level, if necessary",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "24",
+    "display": "Expired to be defined at state level, if necessary 24",
+    "definition": "Expired to be defined at state level, if necessary",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "25",
+    "display": "Expired to be defined at state level, if necessary 25",
+    "definition": "Expired to be defined at state level, if necessary",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "26",
+    "display": "Expired to be defined at state level, if necessary 26",
+    "definition": "Expired to be defined at state level, if necessary",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "27",
+    "display": "Expired to be defined at state level, if necessary 27",
+    "definition": "Expired to be defined at state level, if necessary",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "28",
+    "display": "Expired to be defined at state level, if necessary 28",
+    "definition": "Expired to be defined at state level, if necessary",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "29",
+    "display": "Expired to be defined at state level, if necessary 29",
+    "definition": "Expired to be defined at state level, if necessary",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "30",
+    "display": "Still patient or expected to return for outpatient services",
+    "definition": "Still patient or expected to return for outpatient services (i.e. still a patient)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "31",
+    "display": "Still patient to be defined at state level, if necessary  (i.e. still a patient) 31",
+    "definition": "Still patient to be defined at state level, if necessary  (i.e. still a patient)",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "32",
+    "display": "Still patient to be defined at state level, if necessary  (i.e. still a patient) 32",
+    "definition": "Still patient to be defined at state level, if necessary  (i.e. still a patient)",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "33",
+    "display": "Still patient to be defined at state level, if necessary  (i.e. still a patient) 33",
+    "definition": "Still patient to be defined at state level, if necessary  (i.e. still a patient)",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "34",
+    "display": "Still patient to be defined at state level, if necessary  (i.e. still a patient) 34",
+    "definition": "Still patient to be defined at state level, if necessary  (i.e. still a patient)",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "35",
+    "display": "Still patient to be defined at state level, if necessary  (i.e. still a patient) 35",
+    "definition": "Still patient to be defined at state level, if necessary  (i.e. still a patient)",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "36",
+    "display": "Still patient to be defined at state level, if necessary  (i.e. still a patient) 36",
+    "definition": "Still patient to be defined at state level, if necessary  (i.e. still a patient)",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "37",
+    "display": "Still patient to be defined at state level, if necessary  (i.e. still a patient) 37",
+    "definition": "Still patient to be defined at state level, if necessary  (i.e. still a patient)",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "38",
+    "display": "Still patient to be defined at state level, if necessary  (i.e. still a patient) 38",
+    "definition": "Still patient to be defined at state level, if necessary  (i.e. still a patient)",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "39",
+    "display": "Still patient to be defined at state level, if necessary  (i.e. still a patient) 39",
+    "definition": "Still patient to be defined at state level, if necessary  (i.e. still a patient)",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2016-01-04"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "40",
+    "display": "Expired (i.e. died) at home",
+    "definition": "Expired (i.e. died) at home",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "41",
+    "display": "Expired (i.e. died) in a medical facility",
+    "definition": "Expired (i.e. died) in a medical facility; e.g., hospital, SNF, ICF, or free standing hospice",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "42",
+    "display": "Expired (i.e. died)  - place unknown",
+    "definition": "Expired (i.e. died)  - place unknown",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  } ]
+}

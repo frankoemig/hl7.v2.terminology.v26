@@ -1,0 +1,1698 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "specimenSourceCodes",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-specimenSourceCodes.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/specimenSourceCodes</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.6"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0070"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/specimenSourceCodes",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.28"
+  } ],
+  "version": "1.3.1",
+  "name": "SpecimenSourceCodes",
+  "title": "Specimen Source Codes (2.6 - 1.3.1)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts which specify sources for speciments for clinical testing.  These concepts are used in HL7 Version 2.x messaging in the OBR segment prior to version 2.7, and was replaced by the concepts in code system 2.16.840.1.133883.18.311 specimenType and code system 2.16.840.1.133883.18.312 specimenCollectionMethod as of version 2.5 and thereafter.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  }, {
+    "code": "replacedBy",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#replacedBy",
+    "description": "replacedBy",
+    "type": "code"
+  } ],
+  "concept": [ {
+    "code": "ABLD",
+    "display": "Arterial blood",
+    "definition": "Arterial blood",
+    "designation": [ {
+      "language": "de",
+      "value": "Arterielles Blut"
+    } ],
+    "property": [ {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-12-29"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "replacedBy",
+      "valueCode": "BLDA"
+    } ]
+  }, {
+    "code": "ABS",
+    "display": "Abscess",
+    "definition": "Abscess",
+    "designation": [ {
+      "language": "de",
+      "value": "Abszeß"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "AMN",
+    "display": "Amniotic fluid",
+    "definition": "Amniotic fluid",
+    "designation": [ {
+      "language": "de",
+      "value": "Fruchtwasser"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "ASP",
+    "display": "Aspirate",
+    "definition": "Aspirate",
+    "designation": [ {
+      "language": "de",
+      "value": "Aspirationssubstrat"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "BBL",
+    "display": "Blood bag",
+    "definition": "Blood bag",
+    "designation": [ {
+      "language": "de",
+      "value": "Blutkonserve"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "BDY",
+    "display": "Whole body",
+    "definition": "Whole body",
+    "designation": [ {
+      "language": "de",
+      "value": "Gesamter Körper"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "BIFL",
+    "display": "Bile fluid",
+    "definition": "Bile fluid",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "BLD",
+    "display": "Whole blood",
+    "definition": "Whole blood",
+    "designation": [ {
+      "language": "de",
+      "value": "Gesamtes Blut"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "BLDA",
+    "display": "Blood arterial",
+    "definition": "Blood arterial",
+    "designation": [ {
+      "language": "de",
+      "value": "arterielles Blut"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "BLDC",
+    "display": "Blood capillary",
+    "definition": "Blood capillary",
+    "designation": [ {
+      "language": "de",
+      "value": "Kapillarblut"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "BLDCO",
+    "display": "Cord blood",
+    "definition": "Cord blood",
+    "designation": [ {
+      "language": "de",
+      "value": "Nabelschnurblut"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "BLDV",
+    "display": "Blood venous",
+    "definition": "Blood venous",
+    "designation": [ {
+      "language": "de",
+      "value": "venöses Blut"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "BON",
+    "display": "Bone",
+    "definition": "Bone",
+    "designation": [ {
+      "language": "de",
+      "value": "Knochen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "BPH",
+    "display": "Basophils",
+    "definition": "Basophils",
+    "designation": [ {
+      "language": "de",
+      "value": "Basophile"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "BPU",
+    "display": "Blood product unit",
+    "definition": "Blood product unit",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "BRN",
+    "display": "Burn",
+    "definition": "Burn",
+    "designation": [ {
+      "language": "de",
+      "value": "Brandwunde"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "BRO",
+    "display": "Bronchial",
+    "definition": "Bronchial",
+    "designation": [ {
+      "language": "de",
+      "value": "Bronchialwege"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "BRTH",
+    "display": "Breath (use EXHLD)",
+    "definition": "Breath (use EXHLD)",
+    "designation": [ {
+      "language": "de",
+      "value": "Atemluft"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "CALC",
+    "display": "Calculus (=Stone)",
+    "definition": "Calculus (=Stone)",
+    "designation": [ {
+      "language": "de",
+      "value": "Steinchen, Konkrement"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "CBLD",
+    "display": "Cord blood",
+    "definition": "Cord blood",
+    "designation": [ {
+      "language": "de",
+      "value": "Nabelschnurblut"
+    } ],
+    "property": [ {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-12-29"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "replacedBy",
+      "valueCode": "BLDCO"
+    } ]
+  }, {
+    "code": "CDM",
+    "display": "Cardiac muscle",
+    "definition": "Cardiac muscle",
+    "designation": [ {
+      "language": "de",
+      "value": "Herzmuskel"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "CNJT",
+    "display": "Conjunctiva",
+    "definition": "Conjunctiva",
+    "designation": [ {
+      "language": "de",
+      "value": "Konjunktiven"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "CNL",
+    "display": "Cannula",
+    "definition": "Cannula",
+    "designation": [ {
+      "language": "de",
+      "value": "Kanüle"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "COL",
+    "display": "Colostrum",
+    "definition": "Colostrum",
+    "designation": [ {
+      "language": "de",
+      "value": "Kolostrum, Vormilch"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "CSF",
+    "display": "Cerebral spinal fluid",
+    "definition": "Cerebral spinal fluid",
+    "designation": [ {
+      "language": "de",
+      "value": "Cerebralflüssigkeit"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "CTP",
+    "display": "Catheter tip",
+    "definition": "Catheter tip",
+    "designation": [ {
+      "language": "de",
+      "value": "Katheterspitze"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "CUR",
+    "display": "Curettage",
+    "definition": "Curettage",
+    "designation": [ {
+      "language": "de",
+      "value": "Curettagematerial"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "CVM",
+    "display": "Cervical mucus",
+    "definition": "Cervical mucus",
+    "designation": [ {
+      "language": "de",
+      "value": "Cervicalschleim"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "CVX",
+    "display": "Cervix",
+    "definition": "Cervix",
+    "designation": [ {
+      "language": "de",
+      "value": "Zervix"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "CYST",
+    "display": "Cyst",
+    "definition": "Cyst",
+    "designation": [ {
+      "language": "de",
+      "value": "Zyste"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "DIAF",
+    "display": "Dialysis fluid",
+    "definition": "Dialysis fluid",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "DOSE",
+    "display": "Dose med or substance",
+    "definition": "Dose med or substance",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "DRN",
+    "display": "Drain",
+    "definition": "Drain",
+    "designation": [ {
+      "language": "de",
+      "value": "Drainage"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "DUFL",
+    "display": "Duodenal fluid",
+    "definition": "Duodenal fluid",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "EAR",
+    "display": "Ear",
+    "definition": "Ear",
+    "designation": [ {
+      "language": "de",
+      "value": "Ohr"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "EARW",
+    "display": "Ear wax (cerumen)",
+    "definition": "Ear wax (cerumen)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "ELT",
+    "display": "Electrode",
+    "definition": "Electrode",
+    "designation": [ {
+      "language": "de",
+      "value": "Elektrode"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "ENDC",
+    "display": "Endocardium",
+    "definition": "Endocardium",
+    "designation": [ {
+      "language": "de",
+      "value": "Endocard"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "ENDM",
+    "display": "Endometrium",
+    "definition": "Endometrium",
+    "designation": [ {
+      "language": "de",
+      "value": "Endometrium"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "EOS",
+    "display": "Eosinophils",
+    "definition": "Eosinophils",
+    "designation": [ {
+      "language": "de",
+      "value": "Eosinophile"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "EXG",
+    "display": "Exhaled gas (=breath)",
+    "definition": "Exhaled gas (=breath)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "EXHLD",
+    "display": "Exhaled gas (=breath)",
+    "definition": "Exhaled gas (=breath)",
+    "property": [ {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-12-29"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "replacedBy",
+      "valueCode": "EXG"
+    } ]
+  }, {
+    "code": "EYE",
+    "display": "Eye",
+    "definition": "Eye",
+    "designation": [ {
+      "language": "de",
+      "value": "Auge"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "FIB",
+    "display": "Fibroblasts",
+    "definition": "Fibroblasts",
+    "designation": [ {
+      "language": "de",
+      "value": "Fibroblasten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "FIST",
+    "display": "Fistula",
+    "definition": "Fistula",
+    "designation": [ {
+      "language": "de",
+      "value": "Fistel"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "FLT",
+    "display": "Filter",
+    "definition": "Filter",
+    "designation": [ {
+      "language": "de",
+      "value": "Filter"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "FLU",
+    "display": "Body fluid, unsp",
+    "definition": "Body fluid, unsp",
+    "designation": [ {
+      "language": "de",
+      "value": "Körperflüssigkeit (unspezifiziert)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "GAS",
+    "display": "Gas",
+    "definition": "Gas",
+    "designation": [ {
+      "language": "de",
+      "value": "Gas"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "GAST",
+    "display": "Gastric fluid/contents",
+    "definition": "Gastric fluid/contents",
+    "designation": [ {
+      "language": "de",
+      "value": "Magenflüssigkeit"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "GEN",
+    "display": "Genital",
+    "definition": "Genital",
+    "designation": [ {
+      "language": "de",
+      "value": "Genitale"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "GENC",
+    "display": "Genital cervix",
+    "definition": "Genital cervix",
+    "designation": [ {
+      "language": "de",
+      "value": "Genitale - Cervix"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "GENL",
+    "display": "Genital lochia",
+    "definition": "Genital lochia",
+    "designation": [ {
+      "language": "de",
+      "value": "Wochenfluß / Lochien"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "GENV",
+    "display": "Genital vaginal",
+    "definition": "Genital vaginal",
+    "designation": [ {
+      "language": "de",
+      "value": "Genitale - Vagina"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "HAR",
+    "display": "Hair",
+    "definition": "Hair",
+    "designation": [ {
+      "language": "de",
+      "value": "Haare"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "IHG",
+    "display": "Inhaled Gas",
+    "definition": "Inhaled Gas",
+    "designation": [ {
+      "language": "de",
+      "value": "inhaliertes Gas"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "ISLT",
+    "display": "Isolate",
+    "definition": "Isolate",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "IT",
+    "display": "Intubation tube",
+    "definition": "Intubation tube",
+    "designation": [ {
+      "language": "de",
+      "value": "Tubus"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LAM",
+    "display": "Lamella",
+    "definition": "Lamella",
+    "designation": [ {
+      "language": "de",
+      "value": "Lamellen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LIQ",
+    "display": "Liquid NOS",
+    "definition": "Liquid NOS",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "LN",
+    "display": "Line",
+    "definition": "Line",
+    "designation": [ {
+      "language": "de",
+      "value": "Zugang"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LNA",
+    "display": "Line arterial",
+    "definition": "Line arterial",
+    "designation": [ {
+      "language": "de",
+      "value": "Arterieller Zugang"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LNV",
+    "display": "Line venous",
+    "definition": "Line venous",
+    "designation": [ {
+      "language": "de",
+      "value": "Venöser Zugang"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LYM",
+    "display": "Lymphocytes",
+    "definition": "Lymphocytes",
+    "designation": [ {
+      "language": "de",
+      "value": "Lymphozyten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "MAC",
+    "display": "Macrophages",
+    "definition": "Macrophages",
+    "designation": [ {
+      "language": "de",
+      "value": "Makrophagen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "MAR",
+    "display": "Marrow",
+    "definition": "Marrow",
+    "designation": [ {
+      "language": "de",
+      "value": "Knochenmark"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "MBLD",
+    "display": "Menstrual blood",
+    "definition": "Menstrual blood",
+    "designation": [ {
+      "language": "de",
+      "value": "Menstruationsblut"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "MEC",
+    "display": "Meconium",
+    "definition": "Meconium",
+    "designation": [ {
+      "language": "de",
+      "value": "Meconium"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "MILK",
+    "display": "Breast milk",
+    "definition": "Breast milk",
+    "designation": [ {
+      "language": "de",
+      "value": "Brustmilch"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "MLK",
+    "display": "Milk",
+    "definition": "Milk",
+    "designation": [ {
+      "language": "de",
+      "value": "Milch"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "MN",
+    "display": "Amniotic Fluid",
+    "definition": "Amniotic Fluid",
+    "designation": [ {
+      "language": "de",
+      "value": "Fruchtwasser"
+    } ],
+    "property": [ {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-12-29"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "replacedBy",
+      "valueCode": "AMN"
+    } ]
+  }, {
+    "code": "NAIL",
+    "display": "Nail",
+    "definition": "Nail",
+    "designation": [ {
+      "language": "de",
+      "value": "Nagel"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "NOS",
+    "display": "Nose (nasal passage)",
+    "definition": "Nose (nasal passage)",
+    "designation": [ {
+      "language": "de",
+      "value": "Nase (Nasenwege)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "ORH",
+    "display": "Other",
+    "definition": "Other",
+    "designation": [ {
+      "language": "de",
+      "value": "Andere"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "id": "558",
+    "code": "OTH",
+    "display": "Other",
+    "definition": "Other",
+    "designation": [ {
+      "language": "de",
+      "value": "Diverse"
+    } ],
+    "property": [ {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-12-29"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "PAFL",
+    "display": "Pancreatic fluid",
+    "definition": "Pancreatic fluid",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "PAT",
+    "display": "Patient",
+    "definition": "Patient",
+    "designation": [ {
+      "language": "de",
+      "value": "Patient"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "PER",
+    "display": "Peritoneum",
+    "definition": "Peritoneum",
+    "designation": [ {
+      "language": "de",
+      "value": "Peritoneum"
+    } ],
+    "property": [ {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-12-29"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "PLAS",
+    "display": "Plasma",
+    "definition": "Plasma",
+    "designation": [ {
+      "language": "de",
+      "value": "Plasma"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "PLB",
+    "display": "Plasma bag",
+    "definition": "Plasma bag",
+    "designation": [ {
+      "language": "de",
+      "value": "Plasmabeutel"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "PLC",
+    "display": "Placenta",
+    "definition": "Placenta",
+    "designation": [ {
+      "language": "de",
+      "value": "Placenta"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "PLR",
+    "display": "Pleural fluid (thoracentesis fld)",
+    "definition": "Pleural fluid (thoracentesis fld)",
+    "designation": [ {
+      "language": "de",
+      "value": "Pleuraflüssigkeit (nach Thoracocentese)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "PMN",
+    "display": "Polymorphonuclear neutrophils",
+    "definition": "Polymorphonuclear neutrophils",
+    "designation": [ {
+      "language": "de",
+      "value": "Polymorphkernige Neutrophile"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "PPP",
+    "display": "Platelet poor plasma",
+    "definition": "Platelet poor plasma",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "PRP",
+    "display": "Platelet rich plasma",
+    "definition": "Platelet rich plasma",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "PRT",
+    "display": "Peritoneal fluid /ascites",
+    "definition": "Peritoneal fluid /ascites",
+    "designation": [ {
+      "language": "de",
+      "value": "Peritonealflüssigkeit / Ascites"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "PUS",
+    "display": "Pus",
+    "definition": "Pus",
+    "designation": [ {
+      "language": "de",
+      "value": "Eiter"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RBC",
+    "display": "Erythrocytes",
+    "definition": "Erythrocytes",
+    "designation": [ {
+      "language": "de",
+      "value": "Erythrozyten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "RT",
+    "display": "Route of medicine",
+    "definition": "Route of medicine",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "SAL",
+    "display": "Saliva",
+    "definition": "Saliva",
+    "designation": [ {
+      "language": "de",
+      "value": "Speichel"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "SEM",
+    "display": "Seminal fluid",
+    "definition": "Seminal fluid",
+    "designation": [ {
+      "language": "de",
+      "value": "Sperma"
+    } ],
+    "property": [ {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-12-29"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "replacedBy",
+      "valueCode": "SMN"
+    } ]
+  }, {
+    "code": "SER",
+    "display": "Serum",
+    "definition": "Serum",
+    "designation": [ {
+      "language": "de",
+      "value": "Serum"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "SKM",
+    "display": "Skeletal muscle",
+    "definition": "Skeletal muscle",
+    "designation": [ {
+      "language": "de",
+      "value": "Skelettmuskel"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "SKN",
+    "display": "Skin",
+    "definition": "Skin",
+    "designation": [ {
+      "language": "de",
+      "value": "Haut"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "SMN",
+    "display": "Seminal fluid",
+    "definition": "Seminal fluid",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "SNV",
+    "display": "Synovial fluid (Joint fluid)",
+    "definition": "Synovial fluid (Joint fluid)",
+    "designation": [ {
+      "language": "de",
+      "value": "Synovialflüssigkeit"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "SPRM",
+    "display": "Spermatozoa",
+    "definition": "Spermatozoa",
+    "designation": [ {
+      "language": "de",
+      "value": "Spermien"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "SPT",
+    "display": "Sputum",
+    "definition": "Sputum",
+    "designation": [ {
+      "language": "de",
+      "value": "Sputum"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "SPTC",
+    "display": "Sputum - coughed",
+    "definition": "Sputum - coughed",
+    "designation": [ {
+      "language": "de",
+      "value": "Sputum - Hustenauswurf"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "SPTT",
+    "display": "Sputum - tracheal aspirate",
+    "definition": "Sputum - tracheal aspirate",
+    "designation": [ {
+      "language": "de",
+      "value": "Sputum - tracheal aspiriert"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "STL",
+    "display": "Stool = Fecal",
+    "definition": "Stool = Fecal",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "STON",
+    "display": "Stone (use CALC)",
+    "definition": "Stone (use CALC)",
+    "designation": [ {
+      "language": "de",
+      "value": "Steine"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "SWT",
+    "display": "Sweat",
+    "definition": "Sweat",
+    "designation": [ {
+      "language": "de",
+      "value": "Schweiß"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "TEAR",
+    "display": "Tears",
+    "definition": "Tears",
+    "designation": [ {
+      "language": "de",
+      "value": "Tränen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "THRB",
+    "display": "Thrombocyte (platelet)",
+    "definition": "Thrombocyte (platelet)",
+    "designation": [ {
+      "language": "de",
+      "value": "Thrombozyten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "THRT",
+    "display": "Throat",
+    "definition": "Throat",
+    "designation": [ {
+      "language": "de",
+      "value": "Rachanbstrich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "TIS",
+    "display": "Tissue",
+    "definition": "Tissue",
+    "designation": [ {
+      "language": "de",
+      "value": "Gewebe"
+    } ],
+    "property": [ {
+      "code": "comment",
+      "valueString": "replaced by other and more specific codes"
+    }, {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-12-30"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "TISB",
+    "display": "Tissue bone marrow",
+    "property": [ {
+      "code": "comment",
+      "valueString": "no replacement"
+    }, {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-12-30"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "TISC",
+    "display": "Tissue curettage",
+    "property": [ {
+      "code": "comment",
+      "valueString": "no replacement"
+    }, {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-12-30"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "TISG",
+    "display": "Tissue gall bladder",
+    "definition": "Tissue gall bladder",
+    "designation": [ {
+      "language": "de",
+      "value": "Gallenblasengewebe"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "TISL",
+    "display": "Tissue lung",
+    "property": [ {
+      "code": "comment",
+      "valueString": "replaced by TLNG"
+    }, {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-12-30"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "replacedBy",
+      "valueCode": "TLNG"
+    } ]
+  }, {
+    "code": "TISP",
+    "display": "Tissue peritoneum",
+    "property": [ {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-12-30"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "TISPL",
+    "display": "Tissue placenta",
+    "definition": "Tissue placenta",
+    "designation": [ {
+      "language": "de",
+      "value": "Placentagewebe"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "TISS",
+    "display": "Tissue",
+    "definition": "Tissue",
+    "designation": [ {
+      "language": "de",
+      "value": "Gewebe"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "TISU",
+    "display": "Tissue ulcer",
+    "definition": "Tissue ulcer",
+    "designation": [ {
+      "language": "de",
+      "value": "Ulcusgewebe"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "TLGI",
+    "display": "Tissue large intestine",
+    "definition": "Tissue large intestine",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "TLNG",
+    "display": "Tissue lung",
+    "definition": "Tissue lung",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "TSMI",
+    "display": "Tissue small intestine",
+    "definition": "Tissue small intestine",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "TUB",
+    "display": "Tube NOS",
+    "definition": "Tube NOS",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "ULC",
+    "display": "Ulcer",
+    "definition": "Ulcer",
+    "designation": [ {
+      "language": "de",
+      "value": "Geschwür"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "UMB",
+    "display": "Umbilical blood",
+    "definition": "Umbilical blood",
+    "designation": [ {
+      "language": "de",
+      "value": "Nabelblut"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "UMED",
+    "display": "Unknown medicine",
+    "definition": "Unknown medicine",
+    "designation": [ {
+      "language": "de",
+      "value": "unbekannte Medizin"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "UR",
+    "display": "Urine",
+    "definition": "Urine",
+    "designation": [ {
+      "language": "de",
+      "value": "Urin"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "URC",
+    "display": "Urine clean catch",
+    "definition": "Urine clean catch",
+    "designation": [ {
+      "language": "de",
+      "value": "Mittelstrahlurin"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "URNS",
+    "display": "Urine sediment",
+    "definition": "Urine sediment",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "URT",
+    "display": "Urine catheter",
+    "definition": "Urine catheter",
+    "designation": [ {
+      "language": "de",
+      "value": "Katheterurin"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "URTH",
+    "display": "Urethra",
+    "definition": "Urethra",
+    "designation": [ {
+      "language": "de",
+      "value": "Urethra"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "USUB",
+    "display": "Unknown substance",
+    "definition": "Unknown substance",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "VITF",
+    "display": "Vitreous Fluid",
+    "definition": "Vitreous Fluid",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "VOM",
+    "display": "Vomitus",
+    "definition": "Vomitus",
+    "designation": [ {
+      "language": "de",
+      "value": "Erbrochenes"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "WAT",
+    "display": "Water",
+    "definition": "Water",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "WBC",
+    "display": "Leukocytes",
+    "definition": "Leukocytes",
+    "designation": [ {
+      "language": "de",
+      "value": "Leukozyten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "WICK",
+    "display": "Wick",
+    "definition": "Wick",
+    "designation": [ {
+      "language": "de",
+      "value": "Zwischengefäß bei Infusoren (?)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "WND",
+    "display": "Wound",
+    "definition": "Wound",
+    "designation": [ {
+      "language": "de",
+      "value": "Wundabstrich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "WNDA",
+    "display": "Wound abscess",
+    "definition": "Wound abscess",
+    "designation": [ {
+      "language": "de",
+      "value": "Wundabszeß"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "WNDD",
+    "display": "Wound drainage",
+    "definition": "Wound drainage",
+    "designation": [ {
+      "language": "de",
+      "value": "Wunddrainage"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "WNDE",
+    "display": "Wound exudate",
+    "definition": "Wound exudate",
+    "designation": [ {
+      "language": "de",
+      "value": "Wundexsudat"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "XXX",
+    "display": "To be specified in another part of the message",
+    "definition": "To be specified in another part of the message",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  } ]
+}

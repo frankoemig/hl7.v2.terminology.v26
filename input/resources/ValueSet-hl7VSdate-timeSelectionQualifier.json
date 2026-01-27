@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hl7VSdate-timeSelectionQualifier",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.21.88"
+  } ],
+  "version": "1.0.0",
+  "name": "Hl7VSdate-timeSelectionQualifier",
+  "title": "Date/Time Selection Qualifier (2.6 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Value Set of codes that allow the specification of certain types of values within the date/time range.",
+  "copyright": "HL7 Inc., 2026",
+  "compose": {
+    "include": [ {
+      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/date-timeSelectionQualifier",
+      "version": "0"
+    } ]
+  }
+}

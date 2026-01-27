@@ -1,0 +1,116 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "date-timeSelectionQualifier",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-date-timeSelectionQualifier.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/date-timeSelectionQualifier</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.6"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0158"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/date-timeSelectionQualifier",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.76"
+  } ],
+  "version": "1.0.0",
+  "name": "Date-timeSelectionQualifier",
+  "title": "Date/Time Selection Qualifier (2.6 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of conceptss that allow the specification of certain types of values within the date/time range. Used in HL7 Vesion 2 messaging in the QRF segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "1ST",
+    "display": "First value within range",
+    "definition": "First value within range",
+    "designation": [ {
+      "language": "de",
+      "value": "erster Wert"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "ALL",
+    "display": "All values within the range",
+    "definition": "All values within the range",
+    "designation": [ {
+      "language": "de",
+      "value": "alle Werte"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LST",
+    "display": "Last value within the range",
+    "definition": "Last value within the range",
+    "designation": [ {
+      "language": "de",
+      "value": "letzter Wert"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "REV",
+    "display": "All values within the range returned in reverse chronological order",
+    "definition": "All values within the range returned in reverse chronological order (This is the default if not otherwise specified.)",
+    "property": [ {
+      "code": "comment",
+      "valueString": "(This is the default if not otherwise specified.)"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2025-07-30"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  } ]
+}
